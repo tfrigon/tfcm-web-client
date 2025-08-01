@@ -1,16 +1,9 @@
 import React from 'react';
 import './App.css';
-import SimulationForm from './components/SimulationForm';
+import Layout from './components/Layout';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Financial Simulation Input</h1>
-        <SimulationForm />
-      </header>
-    </div>
-  );
+  return <Layout />;
 }
 
 export default App;
